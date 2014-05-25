@@ -24,7 +24,7 @@ cacheSolve <- function(x, ...) {
   inverse<-x$getInverse()
   # Check if the inverse has been calculated
   if(!is.null(inverse)) {
-    message("Matrix has been calculated before! Retrieving previous results")
+    message("check")
     # returns the inverse that has been calculated and cached
     return(inverse)
   }
